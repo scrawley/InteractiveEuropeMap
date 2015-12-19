@@ -1,0 +1,1462 @@
+ @charset "UTF-8";
+/* CSS Document */
+
+body {
+	width:750px;
+}
+
+h1 {
+	color:#2078ba;
+	font-size:10px;
+	font-weight:100;
+	font-family: arial, helvetica, verdana;
+}
+
+h3 {
+	font-size:9px;
+	font-weight:100;
+	font-family: arial, helvetica, verdana;
+}
+
+h4 {
+	font-size:9px;
+	font-weight:100;
+	font-family: arial, helvetica, verdana;
+}
+
+img {
+	border:0;	
+}
+
+.float {
+	float:left;
+}
+
+.textalign_top {
+	vertical-align:top;	
+}
+
+.clear {
+	clear:both;
+}
+
+.Europe_Map {
+	z-index:1;
+}
+
+.map_wrapper {
+	position:relative;	
+	top:0px;
+	left:0px;
+}
+
+.map_hover_wrapper {
+	position:absolute;	
+	top:-8px;
+	left:-8px;
+}
+
+.country_name {
+	border-bottom:solid 1px #9e9e9e;	
+}
+
+.country_alignment {
+	margin-top:0px;
+	vertical-align:top;
+	margin-bottom:2px;
+}
+
+.x:hover {
+	color:#0d2f44;
+	cursor:pointer;
+}
+
+
+
+/****************************************Country Hover Images********************************/
+
+a.austria_hover {
+	position:absolute;
+	top:384px;
+	left:319px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.austria_hover:hover {
+	position:absolute;
+	top:384px;
+	left:319px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.belgium_hover {
+	position:absolute;
+	top:351px;
+	left:248px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.belgium_hover:hover {
+	position:absolute;
+	top:351px;
+	left:248px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.bulgaria_hover {
+	position:absolute;
+	top:448px;
+	left:460px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.bulgaria_hover:hover {
+	position:absolute;
+	top:448px;
+	left:460px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.croatia_hover {
+	position:absolute;
+	top:417px;
+	left:364px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.croatia_hover:hover {
+	position:absolute;
+	top:417px;
+	left:364px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.cyprus_hover {
+	position:absolute;
+	top:564px;
+	left:580px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.cyprus_hover:hover {
+	position:absolute;
+	top:564px;
+	left:580px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.czech_republic_hover {
+	position:absolute;
+	top:357px;
+	left:346px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.czech_republic_hover:hover {
+	position:absolute;
+	top:357px;
+	left:346px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.denmark_hover {
+	position:absolute;
+	top:213px;
+	left:160px;
+	z-index:3;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.denmark_hover:hover {
+	position:absolute;
+	top:213px;
+	left:160px;
+	z-index:3;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.estonia_hover {
+	position:absolute;
+	top:247px;
+	left:441px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.estonia_hover:hover {
+	position:absolute;
+	top:247px;
+	left:441px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.finland_hover {
+	position:absolute;
+	top:122px;
+	left:417px;
+	z-index:7;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.finland_hover:hover {
+	position:absolute;
+	top:122px;
+	left:417px;
+	z-index:7;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.france_hover {
+	position:absolute;
+	top:357px;
+	left:168px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.france_hover:hover {
+	position:absolute;
+	top:357px;
+	left:168px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.germany_hover {
+	position:absolute;
+	top:305px;
+	left:281px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.germany_hover:hover {
+	position:absolute;
+	top:305px;
+	left:281px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.greece_hover {
+	position:absolute;
+	top:482px;
+	left:434px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.greece_hover:hover {
+	position:absolute;
+	top:482px;
+	left:434px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.hungary_hover {
+	position:absolute;
+	top:390px;
+	left:391px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.hungary_hover:hover {
+	position:absolute;
+	top:390px;
+	left:391px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.iceland_hover {
+	position:absolute;
+	top:163px;
+	left:9.5px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.iceland_hover:hover {
+	position:absolute;
+	top:163px;
+	left:9.5px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.ireland_hover {
+	position:absolute;
+	top:300px;
+	left:114px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.ireland_hover:hover {
+	position:absolute;
+	top:300px;
+	left:114px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.italy_hover {
+	position:absolute;
+	top:410px;
+	left:289px;
+	z-index:4;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.italy_hover:hover {
+	position:absolute;
+	top:410px;
+	left:289px;
+	z-index:4;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.latvia_hover {
+	position:absolute;
+	top:266px;
+	left:435px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.latvia_hover:hover {
+	position:absolute;
+	top:266px;
+	left:435px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.lithuania_hover {
+	position:absolute;
+	top:287px;
+	left:435px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.lithuania_hover:hover {
+	position:absolute;
+	top:287px;
+	left:435px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.luxembourg_hover {
+	position:absolute;
+	top:364px;
+	left:281px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.luxembourg_hover:hover {
+	position:absolute;
+	top:364px;
+	left:281px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.malta_hover {
+	position:absolute;
+	top:549px;
+	left:373px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.malta_hover:hover {
+	position:absolute;
+	top:560px;
+	left:375px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.the_netherlands_hover {
+	position:absolute;
+	top:325px;
+	left:256px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.the_netherlands_hover:hover {
+	position:absolute;
+	top:325px;
+	left:256px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.norway_hover {
+	position:absolute;
+	top:13px;
+	left:277px;
+	z-index:4;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.norway_hover:hover {
+	position:absolute;
+	top:13px;
+	left:277px;
+	z-index:4;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.poland_hover {
+	color:#ffffff;
+	position:absolute;
+	top:308px;
+	left:367px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+
+a.poland_hover:hover {
+	position:absolute;
+	top:308px;
+	left:367px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.portugal_hover {
+	position:absolute;
+	top:476px;
+	left:107px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.portugal_hover:hover {
+	position:absolute;
+	top:476px;
+	left:107px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.romania_hover {
+	position:absolute;
+	top:394px;
+	left:435px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.romania_hover:hover {
+	position:absolute;
+	top:394px;
+	left:435px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.slovak_republic_hover {
+	position:absolute;
+	top:376px;
+	left:398px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.slovak_republic_hover:hover {
+	position:absolute;
+	top:376px;
+	left:398px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.slovenia_hover {
+	position:absolute;
+	top:413px;
+	left:362px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.slovenia_hover:hover {
+	position:absolute;
+	top:413px;
+	left:362px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+
+a.spain_hover {
+	position:absolute;
+	top:455px;
+	left:113px;
+	z-index:4;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.spain_hover:hover {
+	position:absolute;
+	top:455px;
+	left:113px;
+	z-index:4;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.sweden_hover {
+	position:absolute;
+	top:134px;
+	left:336px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.sweden_hover:hover {
+	position:absolute;
+	top:134px;
+	left:336px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.switzerland_hover {
+	position:absolute;
+	top:400px;
+	left:282px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.switzerland_hover:hover {
+	position:absolute;
+	top:400px;
+	left:282px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+a.united_kingdom_hover {
+	position:absolute;
+	top:232px;
+	left:141px;
+	z-index:5;
+	cursor:pointer;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+a.united_kingdom_hover:hover {
+	position:absolute;
+	top:232px;
+	left:141px;
+	z-index:5;
+	cursor:pointer;
+	opacity:100;
+	filter:alpha(opacity=100);
+}
+
+/**************************************** Country Labels ********************************/
+.austria_label {
+	color:#ffffff;
+	position:absolute;
+	top:390px;
+	left:352px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.belgium_label {
+	color:#ffffff;
+	position:absolute;
+	top:353px;
+	left:250px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.bulgaria_label {
+	color:#ffffff;
+	position:absolute;
+	top:454px;
+	left:469px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.croatia_label {
+	color:#1f5f99;
+	position:absolute;
+	top:439px;
+	left:406px;
+	z-index:7;
+	cursor:pointer;
+}
+
+.croatia_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:439px;
+	left:406px;
+	z-index:7;
+	cursor:pointer;
+}
+
+.cyprus_label {
+	color:#1f5f99;
+	position:absolute;
+	top:543px;
+	left:565px;
+	z-index:7;		
+}
+
+.cyprus_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:543px;
+	left:565px;
+	cursor:pointer;
+	z-index:7;		
+}
+
+.czech_republic_label {
+	color:#ffffff;
+	position:absolute;
+	top:356px;
+	left:358px;
+	z-index:7;
+	cursor:pointer;
+	width:20px;	
+	text-align:center;
+}
+
+
+.denmark_label {
+	color:#1f5f99;
+	position:absolute;
+	top:275px;
+	left:252px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.denmark_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:275px;
+	left:252px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.estonia_label {
+	color:#2078ba;
+	position:absolute;
+	top:252px;
+	left:510px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.estonia_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:252px;
+	left:510px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+
+.finland_label {
+	color:#ffffff;
+	position:absolute;
+	top:202px;
+	left:457px;
+	z-index:7;
+	cursor:pointer;		
+}
+
+.france_label {
+	color:#ffffff;
+	position:absolute;
+	top:417px;
+	left:225px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.germany_label {
+	color:#ffffff;
+	position:absolute;
+	top:342px;
+	left:300px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.greece_label {
+	color:#3fa4c2;
+	position:absolute;
+	top:492px;
+	left:507px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.greece_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:492px;
+	left:507px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.hungary_label {
+	color:#ffffff;
+	position:absolute;
+	top:400px;
+	left:404px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.iceland_label {
+	color:#2078ba;
+	position:absolute;
+	top:140px;
+	left:38px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.iceland_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:140px;
+	left:38px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.ireland_label {
+	color:#0062c4;
+	position:absolute;
+	top:320px;
+	left:70px;
+	z-index:7;
+	cursor:pointer;		
+}
+
+.ireland_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:320px;
+	left:70px;
+	z-index:7;
+	cursor:pointer;		
+}
+
+.italy_label {
+	color:#0062c4;
+	position:absolute;
+	top:485px;
+	left:330px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.italy_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:485px;
+	left:330px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.latvia_label {
+	color:#0062c4;
+	position:absolute;
+	top:275px;
+	left:517px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.latvia_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:275px;
+	left:517px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.lithuania_label {
+	color:#3fa4c2;
+	position:absolute;
+	top:300px;
+	left:497px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+
+.lithuania_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:300px;
+	left:497px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.luxembourg_label {
+	color:#ffffff;
+	position:absolute;
+	top:376px;
+	left:240px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.luxembourg_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:376px;
+	left:240px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.malta_label {
+	color:#1f5f99;
+	position:absolute;
+	top:563px;
+	left:361px;
+	z-index:7;
+	cursor:pointer;		
+}
+
+.malta_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:563px;
+	left:361px;
+	z-index:7;
+	cursor:pointer;		
+}
+
+.netherlands_label {
+	color:#1f5f99;
+	position:absolute;
+	top:295px;
+	left:235px;
+	z-index:7;
+	cursor:pointer;	
+	text-align:center;
+}
+
+.netherlands_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:295px;
+	left:235px;
+	z-index:7;
+	cursor:pointer;	
+	text-align:center;
+}
+
+.norway_label {
+	color:#ffffff;
+	position:absolute;
+	top:218px;
+	left:299px;
+	cursor:pointer;
+	z-index:7;
+}
+
+.poland_label {
+	color:#ffffff;
+	position:absolute;
+	top:332px;
+	left:401px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.portugal_label {
+	color:#3fa4c2;
+	position:absolute;
+	top:490px;
+	left:55px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.portugal_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:490px;
+	left:55px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.romania_label {
+	color:#ffffff;
+	position:absolute;
+	top:418px;
+	left:465px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.spain_label {
+	color:#ffffff;
+	position:absolute;
+	top:490px;
+	left:165px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.slovak_republic_label {
+	color:#3fa4c2;
+	position:absolute;
+	top:367px;
+	left:465px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.slovak_republic_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:367px;
+	left:465px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.slovenia_label {
+	color:#ffffff;
+	position:absolute;
+	top:410px;
+	left:350px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.sweden_label {
+	color:#ffffff;
+	position:absolute;
+	top:165px;
+	left:379px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.switzerland_label {
+	color:#ffffff;
+	position:absolute;
+	top:399px;
+	left:246px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.switzerland_label:hover {
+	color:#ffffff;
+	position:absolute;
+	top:399px;
+	left:246px;
+	z-index:7;
+	cursor:pointer;	
+}
+
+.united_kingdom_label {
+	color:#2078ba;
+	position:absolute;
+	top:260px;
+	left:105px;
+	z-index:7;
+	cursor:pointer;	
+	width:20px;
+	text-align:center;
+}
+
+.united_kingdom_label:hover {
+	color:#0d2f44;
+	position:absolute;
+	top:260px;
+	left:105px;
+	z-index:7;
+	cursor:pointer;	
+	width:20px;
+	text-align:center;
+}
+
+/****************************************Country Statistics Box ********************************/
+table {
+	border:solid 1px #9e9e9e;
+	background-color:#ffffff;
+	-webkit-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.18);
+	box-shadow: 11px 13px 24px 0px rgba(0,0,0,0.18);
+	
+}
+
+.capital, .currency {
+	width:50%;
+}
+
+.close_stats {
+	vertical-align:top;
+	text-align:right;
+	color:#9e9e9e;
+	font-size:8px;
+	font-weight:100;
+	font-family: arial, helvetica, verdana;
+}
+
+.close_stats > a {
+	text-decoration:none;
+	color:#9e9e9e;
+}
+
+.close_stats > a:hover {
+	text-decoration:none;	
+}
+
+#country_stats_wrapper {
+	width: 120px;
+	border:solid 1px #9e9e9e;	
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.stat {
+	color:#9e9e9e;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.stat_header {
+	color:#2078ba;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family: arial, helvetica, verdana;
+	vertical-align:top;
+}
+
+.row2_stat {
+	margin-top:2px;	
+}
+
+.light_blue {
+	color:#3fa4c2;
+}
+
+.medium_blue {
+	color:#2078ba;
+}
+
+.dark_blue {
+	color:#1f5f99;
+}
+
+.bright_blue {
+	color:#0062c4;
+}
+
+.leftpadding {
+	padding-left:10px;	
+}
+
+.rightpadding {
+	padding-right:10px;	
+}
+
+.toppadding {
+	padding-top:10px;	
+}
+
+.bottompadding {
+	padding-bottom:10px;
+}
+
+/***************************Country Statistics Box Locations****************/
+#Austria_Stats {
+	position:absolute;
+	z-index:10;
+	top:410px;
+	left:197px;
+}
+
+#Belgium_Stats {
+	position:absolute;
+	z-index:10;
+	top:357px;
+	left:115px;
+}
+
+#Bulgaria_Stats {
+	position:absolute;
+	z-index:10;
+	top:465px;
+	left:515px;
+}
+
+#Croatia_Stats {
+	position:absolute;
+	z-index:10;
+	top:443px;
+	left:240px;
+}
+
+#Cyprus_Stats {
+	position:absolute;
+	z-index:10;
+	top:468px;
+	left:595px;
+}
+
+#Czech_Republic_Stats {
+	position:absolute;
+	z-index:10;
+	top:374px;
+	left:215px;
+}
+
+#Denmark_Stats {
+	position:absolute;
+	z-index:10;
+	top:290px;
+	left:175px;
+}
+
+#Estonia_Stats {
+	position:absolute;
+	z-index:10;
+	top:260px;
+	left:490px;
+}
+
+#Finland_Stats {
+	position:absolute;
+	z-index:10;
+	top:50px;
+	left:490px;
+}
+
+#France_Stats {
+	position:absolute;
+	z-index:10;
+	top:392px;
+	left:45px;
+}
+
+#Germany_Stats {
+	position:absolute;
+	z-index:10;
+	top:360px;
+	left:150px;
+}
+
+#Greece_Stats {
+	position:absolute;
+	z-index:10;
+	top:505px;
+	left:310px;
+}
+
+#Hungary_Stats {
+	position:absolute;
+	z-index:10;
+	top:410px;
+	left:265px;
+}
+
+#Iceland_Stats {
+	position:absolute;
+	z-index:10;
+	top:179px;
+	left:95px;
+}
+
+#Ireland_Stats {
+	position:absolute;
+	z-index:10;
+	top:340px;
+	left:140px;
+}
+
+#Italy_Stats {
+	position:absolute;
+	z-index:10;
+	top:435px;
+	left:170px;
+}
+
+#Latvia_Stats {
+	position:absolute;
+	z-index:10;
+	top:280px;
+	left:495px;
+}
+
+#Lithuania_Stats {
+	position:absolute;
+	z-index:10;
+	top:296px;
+	left:482px;
+}
+
+#Luxembourg_Stats {
+	position:absolute;
+	z-index:10;
+	top:375px;
+	left:126px;
+}
+
+#Malta_Stats {
+	position:absolute;
+	z-index:10;
+	top:465px;
+	left:235px;
+}
+
+#The_Netherlands_Stats {
+	position:absolute;
+	z-index:10;
+	top:345px;
+	left:110px;
+}
+
+#Norway_Stats {
+	position:absolute;
+	z-index:10;
+	top:95px;
+	left:175px;
+}
+
+#Poland_Stats {
+	position:absolute;
+	z-index:10;
+	top:340px;
+	left:455px;	
+}
+
+#Portugal_Stats {
+	position:absolute;
+	z-index:10;
+	top:383px;
+	left:3px;
+}
+
+#Romania_Stats {
+	position:absolute;
+	z-index:10;
+	top:425px;
+	left:515px;
+}
+
+#Slovenia_Stats {
+	position:absolute;
+	z-index:10;
+	top:425px;
+	left:227px;
+}
+
+#Slovak_Republic_Stats {
+	position:absolute;
+	z-index:10;
+	top:390px;
+	left:270px;
+}
+
+#Spain_Stats {
+	position:absolute;
+	z-index:10;
+	top:365px;
+	left:10px;
+}
+
+#Sweden_Stats {
+	position:absolute;
+	z-index:10;
+	top:50px;
+	left:255px;
+}
+
+#Switzerland_Stats {
+	position:absolute;
+	z-index:10;
+	top:415px;
+	left:130px;
+}
+
+#United_Kingdom_Stats {
+	position:absolute;
+	z-index:10;
+	top:309px;
+	left:15px;
+}
+
+
+
+
+
